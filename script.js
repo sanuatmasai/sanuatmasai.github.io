@@ -1,3 +1,6 @@
+ 
+
+GitHubCalendar(".calendar", "sanuatmasai", { responsive: true });
 $(document).ready(function(){
     $(window).scroll(function(){
         // sticky navbar on scroll script
@@ -14,6 +17,10 @@ $(document).ready(function(){
             $('.scroll-up-btn').removeClass("show");
         }
     });
+
+    // GitHubCalendar(".calendar", "sanuatmasai", { responsive: true });
+
+    // GitHubCalendar(".calendar", "sanuatmasai", { responsive: true });
 
     // slide-up script
     $('.scroll-up-btn').click(function(){
@@ -84,5 +91,6 @@ $(document).ready(function(){
             }
         }
     });
-
+    // GitHubCalendar(".calendar", "sanuatmasai@2023", { responsive: true });
 });
+// GitHubCalendar(".calendar", "sanuatmasai@2023", { responsive: true });
