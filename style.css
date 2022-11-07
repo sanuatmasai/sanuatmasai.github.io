@@ -257,16 +257,20 @@ section .title::after{
     color: rgb(220, 100, 2);
     background: none;
 }
-/* #about {
-    background-image: linear-gradient(to bottom,rgb(26, 26, 26), rgb(26, 26, 26), rgb(17, 17, 17));
-} */
-
-/* services section styling */
 .services, .teams{
     color:#fff;
     background: #111;
 }
-.services .title::before,
+#stats {
+    display:flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+#skills .calendar {
+    margin: auto;
+    width: 80%;
+} 
+.services .tile::before,
 .teams .title::before{
     background: #fff;
 }
