@@ -265,6 +265,12 @@ section .title::after{
     display:flex;
     justify-content: center;
     margin-bottom: 2%;
+    width: 80%;
+    /* border: solid 2px black; */
+    margin: auto;
+}
+#stats1 {
+    margin-right: 3.5%;
 }
 #skills .calendar {
     margin: auto;
@@ -691,6 +697,7 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
+    
 }
 
 
@@ -938,6 +945,17 @@ footer span a:hover{
     #coded {
         display: none;
     }
+    #stats {
+        display:block;
+        margin:auto;
+        
+    }
+    #stats1 {
+        margin-right: 0%;
+    }
+    /* .slideup{
+        width: 30%;
+    } */
 }
 @media all and (max-width: 500px) { 
     #front {
@@ -966,4 +984,20 @@ footer span a:hover{
     #coded {
         display: none;
     }
+    #stats  {
+        display:block;
+        /* width: 80%; */
+        margin:auto; 
+        border: solid red 2px;
+        
+    }
+    #stats img {
+        width: 100%;
+    }
+    #stats1 {
+        margin-right: 0%;
+    }
+    /* .slideup{
+        width: 30%;
+    } */
 }
