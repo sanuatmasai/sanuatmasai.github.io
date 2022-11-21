@@ -953,9 +953,6 @@ footer span a:hover{
     #stats1 {
         margin-right: 0%;
     }
-    /* .slideup{
-        width: 30%;
-    } */
 }
 @media all and (max-width: 500px) { 
     #front {
@@ -986,9 +983,7 @@ footer span a:hover{
     }
     #stats  {
         display:block;
-        /* width: 80%; */
         margin:auto; 
-        border: solid red 2px;
         
     }
     #stats img {
@@ -997,7 +992,4 @@ footer span a:hover{
     #stats1 {
         margin-right: 0%;
     }
-    /* .slideup{
-        width: 30%;
-    } */
 }
