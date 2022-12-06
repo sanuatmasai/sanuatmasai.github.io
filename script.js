@@ -1,6 +1,6 @@
  
 
-GitHubCalendar(".calendar", "sanuatmasai", { responsive: true });
+GitHubCalendar(".calendar", "sanuatmasai", { responsive: true, tooltips: true});
 $(document).ready(function(){
     $(window).scroll(function(){
         // sticky navbar on scroll script
