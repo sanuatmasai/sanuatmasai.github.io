@@ -483,6 +483,7 @@ section .title::after{
 }
 
 /* contact section styling */
+
 #contact {
     background-color: #888;
 }
@@ -504,6 +505,11 @@ section .title::after{
 }
 .contact .contact-content .left p{
     text-align: justify;
+}
+.icons {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
 .contact .contact-content .left .icons{
     margin: 10px 0;
@@ -1028,5 +1034,10 @@ footer span a:hover{
     }
     #stats1 {
         margin-right: 0%;
+    }
+    .icons {
+        display: grid;
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 }
