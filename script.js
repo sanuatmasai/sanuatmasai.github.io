@@ -75,7 +75,7 @@ $(document).ready(function(){
         slideTransition: 'linear',
         autoplaySpeed: 20000,
         autoplayTimeOut: 1000,
-        autoplayHoverPause: true,
+        autoplayHoverPause: false,
         responsive: {
             0:{
                 items: 1,
@@ -91,6 +91,4 @@ $(document).ready(function(){
             }
         }
     });
-    // GitHubCalendar(".calendar", "sanuatmasai@2023", { responsive: true });
 });
-// GitHubCalendar(".calendar", "sanuatmasai@2023", { responsive: true });

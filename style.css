@@ -225,7 +225,8 @@ section .title::after{
 
 /* about section styling */
 #about {
-    background-color: rgb(177, 177, 177);
+    /* background-color: rgb(177, 177, 177); */
+    background-image: linear-gradient(to right, rgb(143, 143, 143), rgb(0, 0, 0));
     
 } 
 .about-content {
@@ -294,9 +295,37 @@ section .title::after{
 #stats1 {
     margin-right: 3.5%;
 }
+#skills .calendar .contrib-number{
+    color:rgb(220, 100, 2);
+}
+  #skills .calendar rect.ContributionCalendar-day[data-level='0'] {
+      fill: rgb(187, 187, 187);
+  }
+  #skills .calendar rect.ContributionCalendar-day[data-level='4'] {
+      fill: rgb(224, 176, 157);
+  }
+  
+  #skills .calendar rect.ContributionCalendar-day[data-level='3'] {
+      fill: rgb(255, 175, 143);
+  }
+  
+  #skills .calendar rect.ContributionCalendar-day[data-level='2'] {
+      fill: rgb(253, 140, 95);
+  }
+  
+  #skills .calendar rect.ContributionCalendar-day[data-level='1'] {
+      fill: rgb(220, 100, 2);
+  } 
+
 #skills .calendar {
     margin: auto;
     width: 80%;
+    /* background-image: linear-gradient(to bottom, rgb(52, 45, 38)); */
+    background-color:linear-gradient(to bottom, rgb(77, 77, 77), black);;
+    /* color: rgb(220, 100, 2); */
+    color:rgb(208, 205, 205);
+    border: solid 1px rgb(161, 161, 161);
+    font-weight: 600;
 } 
 /* #services {
     background-color: #b3b3b3;
@@ -346,6 +375,8 @@ section .title::after{
 
 #skills {
     background-color: #555;
+    background-image: linear-gradient(to bottom, rgb(77, 77, 77), black);
+
 }
 .skills .title::after{
     /* content: "what i know"; */
@@ -484,8 +515,15 @@ section .title::after{
 
 /* contact section styling */
 
+.head {
+    /* color:#f1f1f1; */
+}
+#contact .sub-title {
+    /* color:rgb(182, 182, 180); */
+}
 #contact {
-    background-color: #888;
+    /* background-color: #888; */
+    background-image: linear-gradient(to right, black,rgb(143, 143, 143), rgb(143, 143, 143), rgb(0, 0, 0));
 }
 .contact .title::after{
     /* content: "get in touch"; */
