@@ -300,6 +300,7 @@ section .title::after{
 }
   #skills .calendar rect.ContributionCalendar-day[data-level='0'] {
       fill: rgb(187, 187, 187);
+      /* fill: green; */
   }
   #skills .calendar rect.ContributionCalendar-day[data-level='4'] {
       fill: rgb(224, 176, 157);
@@ -914,6 +915,9 @@ footer span a:hover{
     font-size: 35px;
     color: white;
 }
+.work #h4 {
+    font-size: 30px;
+}
 #created {
     display: flex;
     width:94%;
@@ -955,7 +959,7 @@ footer span a:hover{
     transition: height 0.8s;
 }
 .layer h3 {
-    font-weight: 200;
+    font-weight: 180;
     margin-bottom: 20px;
     text-align: center;
     font-size: 10px;
